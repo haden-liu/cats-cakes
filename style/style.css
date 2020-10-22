@@ -1,0 +1,36 @@
+nav {
+  background-color: blue;
+}
+body {
+    margin: 0;
+}
+
+h1 a {
+    font-family: Arial; 
+}
+h1 {
+    font-size: 28px;
+}
+.blue-background {
+    background-color: #5dbcd2;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+@media screen and (win-height: 200px) {
+    .nav-bar {
+        background-color: green;
+        flex-direction: column-reverse;
+    }
+    
+    body {
+        background-color: orange;
+    }
+}
+
