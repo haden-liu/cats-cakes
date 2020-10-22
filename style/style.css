@@ -24,7 +24,7 @@ h1 {
 }
 
 @media screen and (win-height: 200px) {
-    .nav-bar {
+    #nav-bar {
         background-color: green;
         flex-direction: column-reverse;
     }
